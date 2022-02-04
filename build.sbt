@@ -7,7 +7,7 @@ val AkkaHttpVersion = "10.2.7"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "endpoint-auth",
+    name := "auth-proxy",
     scalacOptions ++= List(),
     libraryDependencies ++= List(
       "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,

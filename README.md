@@ -2,7 +2,7 @@
 
 Build and run the container first:
 
-`docker build --tag endpoint-auth .`
+`docker build --tag auth-proxy .`
 
 `docker run -d -p 8080:8080 auth-proxy`
 
