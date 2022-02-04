@@ -10,7 +10,7 @@ Give it a couple of minutes to build.
 
 Then send some request that will be blocked(just for seconds, so be quick):
 
-`curl -H 'Auth-Key: 42' 'localhost:8080/?q=whatevs' -v`
+`curl -H 'Auth-Key: 42' 'localhost:8080/?q=whatevs'`
 
 Unblock the request by sending a POST:
 
